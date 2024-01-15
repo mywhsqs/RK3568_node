@@ -16,7 +16,7 @@ client = Minio(
     secure=True,
 )
 
-bucket_name = "test"
+bucket_name = "rk3568node501"
 
 # 检查存储桶是否存在，不存在则创建
 found = client.bucket_exists(bucket_name)
