@@ -50,7 +50,7 @@ f_gps = open('./config_gps', 'r')
 is_gps = str(f_gps.read())
 f_gps.close()
 if is_gps[0:is_gps.find(";")] == "on":
-    ser = serial.Serial("/dev/ttyUSB5", 9600)
+    ser = serial.Serial("/dev/ttyUSB7", 9600)
 else:
     ser = ""
 
